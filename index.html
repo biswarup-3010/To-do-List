@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO list</title>
+    <link rel="stylesheet" href="./todo_style.css" />
+  </head>
+  <body onload="playMusic()">
+    <h1 class="heading">Make your Working list</h1>
+    <h3 id="worksPending"></h3>
+    <div class="writingPlot">
+      <input type="text" id="workPlan" />
+      <button id="add" onclick="adWork()">ADD</button>
+    </div>
+    <div class="works">
+      <div class="worksToDO">
+        <div id="sl"><h3>sl</h3></div>
+        <div id="dtls"><h3>Details</h3></div>
+        <button id="rmv"><h3>x</h3></button>
+      </div>
+    </div>
+
+    <script src="./todo_script.js"></script>
+  </body>
+</html>

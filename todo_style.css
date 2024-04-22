@@ -1,0 +1,95 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  text-align: center;
+  padding: 15px;
+  min-width: 400px;
+  background-color: rgb(68, 67, 67);
+}
+.heading {
+  color: rgb(255, 244, 232);
+  word-spacing: 2px;
+}
+#worksPending {
+  color: rgb(13, 255, 0);
+}
+.writingPlot {
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+#workPlan {
+  padding: 0%;
+  margin: 0%;
+  border: 2px solid rgb(255, 198, 55);
+  height: 50px;
+  width: 80%;
+  color: rgb(33, 0, 0);
+  font-size: 1.5em;
+  outline: none;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding-left: 15px;
+  transition: 0.5s;
+}
+#add {
+  height: 54px;
+  width: 20%;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border: none;
+  background-color: rgb(255, 198, 55);
+  color: rgb(33, 0, 0);
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+#add:hover {
+  color: rgb(243, 187, 83);
+  background-color: rgb(33, 0, 0);
+}
+.works {
+  margin: auto;
+  height: fit-content;
+  width: 70vw;
+  border: 3px solid rgb(254, 254, 254);
+  border-radius: 15px;
+  background-color: rgb(222, 251, 240);
+  padding: 5px;
+}
+.worksToDO {
+  margin: 3px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 15px;
+}
+#sl {
+  background-color: rgb(243, 187, 83);
+  padding: 5px;
+  width: 10%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#rmv,
+#rmv1 {
+  background-color: rgb(255, 63, 63);
+  color: black;
+  width: 10%;
+  padding: 5px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-style: none;
+}
+#rmv1:hover {
+  background-color: black;
+  color: rgb(255, 63, 63);
+}
+#dtls {
+  padding: 5px;
+  width: 80%;
+}
